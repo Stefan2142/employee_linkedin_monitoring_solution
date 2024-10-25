@@ -2,23 +2,42 @@
 undetected_sel.py
 linkedin_data.db
 
+# Ignore chromedriver
+chromedriver
+chromedriver.exe
+
+# Ignore any chromedriver in any subdirectory
+**/chromedriver
+**/chromedriver.exe
+
 # Python-related files
 __pycache__/
 *.py[cod]
-*$py.class
+*.so
 
 # Virtual environment
 venv/
 env/
 *.env
 
-# IDE-specific files
-.vscode/
-.idea/
+# Database
+*.db
 
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Output files (optional, depending on your needs)
+# reports/
+# *.csv
+# *.html
 
 # Log files
 *.logs
@@ -68,9 +87,6 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
-
-# Ignore log files
-*.log
 
 # Ignore HTML files
 *.html

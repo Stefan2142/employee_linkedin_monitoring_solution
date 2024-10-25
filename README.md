@@ -21,7 +21,7 @@ This project is a LinkedIn profile scraper that collects information about inter
 1. Clone this repository:
 
    ```
-   git clone https://github.com/yourusername/linkedin-profile-scraper.git
+   git clone https://github.com/stefan2142/linkedin-profile-scraper.git
    cd linkedin-profile-scraper
    ```
 
@@ -64,7 +64,7 @@ This project is a LinkedIn profile scraper that collects information about inter
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/linkedin-profile-scraper/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/stefan2142/linkedin-profile-scraper/issues) if you want to contribute.
 
 ## License
 
