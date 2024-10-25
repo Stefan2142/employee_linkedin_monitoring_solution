@@ -2,11 +2,9 @@
 undetected_sel.py
 linkedin_data.db
 
-# Ignore chromedriver
+# Chromedriver - ensure these are at the top of the file
 chromedriver
 chromedriver.exe
-
-# Ignore any chromedriver in any subdirectory
 **/chromedriver
 **/chromedriver.exe
 
