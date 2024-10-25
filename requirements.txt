@@ -1,0 +1,8 @@
+pandas
+sqlite3
+jinja2
+plotly
+dash
+dash-bootstrap-components
+flask
+nodriver

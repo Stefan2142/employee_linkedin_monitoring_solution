@@ -68,3 +68,12 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+
+# Ignore log files
+*.log
+
+# Ignore HTML files
+*.html
+
+# Ignore the reports directory
+/reports/

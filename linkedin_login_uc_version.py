@@ -162,7 +162,7 @@ def run_scraper():
 
         profile_urls = read_profile_urls("linkedin_urls.txt")
 
-        for profile_url in profile_urls[:10]:
+        for profile_url in profile_urls[:]:
             logger.info(f"Processing profile: {profile_url}")
             interests_count, number_of_skills, status = process_profile(
                 driver, profile_url
