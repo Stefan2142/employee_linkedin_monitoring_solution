@@ -2,13 +2,18 @@
 undetected_sel.py
 linkedin_data.db
 linkedin_urls.txt
+
 # Chromedriver - ensure these are at the top of the file
 chromedriver
 chromedriver.exe
 **/chromedriver
 **/chromedriver.exe
 
+# Ignore all .txt files
+*.txt
 
+# But don't ignore requirements.txt
+!requirements.txt
 
 # Python-related files
 __pycache__/
